@@ -1,0 +1,45 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container-fluid" style="margin-top:10%;">
+    <div class="form-group">
+        <h3 class="text-center">Confira o clima de uma cidade:</h3>
+
+        <div class="form-input-container">
+            <input class="form-control border-end-0 border rounded-pill" type="text" placeholder="Digite o nome da cidade" id="input-cidade">
+            <span class="input-group-append">
+                <button id="search" class="btn btn-outline-secondary bg-white border-start-0 border rounded-pill ms-n3" type="button">
+                    <i class="fa fa-search"></i>
+                </button>
+            </span>
+        </div>
+    </div>
+
+    <div id="dados-metereologicos" class="hide">
+        <h2>
+            <i class="fa-solid fa-location-dot"></i>
+            <span id="cidade"></span>
+            <img src="" id="pais" />
+        </h2>
+        <p id="temperatura"><span></span>&deg;C</p>
+        <div id="descricao-container">
+            <p id="descricao"></p>
+            <img src="" alt="Condições do tempo" id="icon-metereologico" />
+        </div>
+        <div id="detalhes-container">
+            <p id="umidade">
+                <i class="fa-solid fa-droplet"></i>
+                <span></span>
+            </p>
+            <p id="vento">
+                <i class="fa-solid fa-wind"></i>
+                <span></span>
+            </p>
+        </div>
+    </div>
+</div>
+
+<link href="~/css/estilo.css" rel="stylesheet" />
+<script src="~/js/scripts.js"></script>
+

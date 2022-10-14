@@ -2,7 +2,7 @@
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/Relinton/AspNetCorePaginacaoDataTable/blob/main/LICENSE) 
 
 # Sobre o projeto
-Projeto desenvolvido com Asp Net Core Mvc na linguagem c# com javascript...
+Projeto desenvolvido com Asp Net Core Mvc na linguagem c#, consumindo api de clima do sitio https://openweathermap.org/api com o plano gratuito...
 
 ## Layout web
 ![formbuscarcidade](https://user-images.githubusercontent.com/32855779/195900325-d34605c7-5f27-4d80-bb6d-d37fa294b302.PNG)
